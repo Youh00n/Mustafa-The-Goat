@@ -1,0 +1,86 @@
+body {
+  background-color: #1e1e1e;
+  color: white;
+  font-family: 'Courier New', Courier, monospace;
+  text-align: center;
+  padding: 20px;
+}
+
+h1 {
+  font-size: 2.5em;
+  margin-bottom: 0.2em;
+}
+
+.goat-icon {
+  font-size: 1em;
+  margin-left: 0.3em;
+}
+
+.mustafa-pic {
+  width: 200px;
+  height: auto;
+  border: 2px solid white;
+  margin: 20px auto;
+  display: block;
+}
+
+.helper-text {
+  color: red;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
+.highlight {
+  text-decoration: underline;
+}
+
+.image-container {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.card {
+  background-color: #2e2e2e;
+  border: 2px solid white;
+  padding: 10px;
+  width: 200px;
+  transition: transform 0.3s ease;
+  cursor: pointer;
+}
+
+.card img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.card:hover {
+  transform: scale(1.1);
+}
+
+.action {
+  font-size: 1.2em;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.escape {
+  color: red;
+}
+
+.stay {
+  color: blue;
+}
+
+.retry {
+  color: crimson;
+}
+
+.ending {
+  color: red;
+  font-size: 1.5em;
+  margin-top: 100px;
+  padding: 0 20px;
+}
